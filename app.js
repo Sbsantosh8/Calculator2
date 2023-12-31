@@ -16,6 +16,7 @@ arr.forEach(button =>{
    
     else if(chalobc.target.innerHTML == "DEL"){
       input.value = string.substring(0,string.length-1);
+      string = input.value;
     }
     
 
